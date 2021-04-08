@@ -16,6 +16,7 @@ export const Main = () => {
   useEffect(() => {
     getFilms();
   }, []);
+
   return (
     <main className="main">
       <div className="main__title">

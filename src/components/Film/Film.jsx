@@ -1,15 +1,13 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './Film.scss';
-import { Modal } from '../Modal/Modal';
 
 export const Film = (props) => {
-  const { film } = { ...props };
-  const [modalActive, setModalActive] = useState(false);
+  const { film, showModal } = { ...props };
 
   return (
-    <div className="film" role="button" tabIndex={0} onClick={() => setModalActive(true)} onKeyDown={setModalActive}>
+    <div className="film" role="button" tabIndex={0} onKeyDown={showModal} onClick={showModal}>
       <div className="film__poster">
-        <img src={film.poster_path} alt="Error 404" className="posters" />
+        <img src={film.poster_path} alt={film.title} className="posters" />
       </div>
       <div className="film__info">
         <div className="film__description">
@@ -30,23 +28,6 @@ export const Film = (props) => {
           </p>
         </div>
       </div>
-      <Modal active={modalActive} setActive={setModalActive}>
-        <div className="modal__title">
-          {film.title}
-        </div>
-        <div className="modal__genres">
-          {film.genres.join(', ')}
-        </div>
-        <div className="modal__description">
-          {film.overview}
-        </div>
-        <div className="modal__popularity">
-          {film.revenue}
-        </div>
-        <div className="modal__budget">
-          {film.budget}
-        </div>
-      </Modal>
     </div>
   );
 };
