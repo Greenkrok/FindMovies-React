@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/FindMovies-React/static/css/main.d6b07216.chunk.css",
-    "main.js": "/FindMovies-React/static/js/main.2f28369e.chunk.js",
-    "main.js.map": "/FindMovies-React/static/js/main.2f28369e.chunk.js.map",
+    "main.css": "/FindMovies-React/static/css/main.696fd047.chunk.css",
+    "main.js": "/FindMovies-React/static/js/main.0a00c096.chunk.js",
+    "main.js.map": "/FindMovies-React/static/js/main.0a00c096.chunk.js.map",
     "runtime-main.js": "/FindMovies-React/static/js/runtime-main.b992c0a8.js",
     "runtime-main.js.map": "/FindMovies-React/static/js/runtime-main.b992c0a8.js.map",
     "static/js/2.38d2ba7c.chunk.js": "/FindMovies-React/static/js/2.38d2ba7c.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.9de2fc88.chunk.js": "/FindMovies-React/static/js/3.9de2fc88.chunk.js",
     "static/js/3.9de2fc88.chunk.js.map": "/FindMovies-React/static/js/3.9de2fc88.chunk.js.map",
     "index.html": "/FindMovies-React/index.html",
-    "static/css/main.d6b07216.chunk.css.map": "/FindMovies-React/static/css/main.d6b07216.chunk.css.map",
+    "static/css/main.696fd047.chunk.css.map": "/FindMovies-React/static/css/main.696fd047.chunk.css.map",
     "static/js/2.38d2ba7c.chunk.js.LICENSE.txt": "/FindMovies-React/static/js/2.38d2ba7c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.b992c0a8.js",
     "static/js/2.38d2ba7c.chunk.js",
-    "static/css/main.d6b07216.chunk.css",
-    "static/js/main.2f28369e.chunk.js"
+    "static/css/main.696fd047.chunk.css",
+    "static/js/main.0a00c096.chunk.js"
   ]
 }
