@@ -1,21 +1,11 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import './Main.scss';
 import { FilmsCounter } from '../FilmsCounter/FilmsCounter';
 import { Filter } from '../Filter/Filter';
 import { Films } from '../Films/Films';
 
-export const Main = () => {
-  const [films, setFilms] = useState([]);
-  const getFilms = () => fetch('https://reactjs-cdp.herokuapp.com/movies?search=&searchBy=title\n')
-    .then((response) => response.json())
-    .then(
-      (result) => {
-        setFilms(result.data);
-      },
-    );
-  useEffect(() => {
-    getFilms();
-  }, []);
+export const Main = (props) => {
+  const { films } = { ...props };
 
   return (
     <main className="main">
